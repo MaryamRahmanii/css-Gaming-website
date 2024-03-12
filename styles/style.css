@@ -18,19 +18,17 @@
 }
 @font-face{
   font-family: myFont;
-  src: url('/assets/fonts/Poppins-Black.ttf') format('truetype');
+  src: url("/assets/fonts/Poppins-Medium.ttf") format('truetype');
 }
 @font-face{
   font-family: myFontlight;
-  src: url('/assets/fonts/Poppins-Light.ttf') format('truetype');
+  src: url("/assets/fonts/Poppins-Light.ttf") format('truetype');
 }
 
 
 body{
   background-color: #3B2A9F;
   font-family: myFont;
-  font-weight: normal;
-  display: flex;
 
 }
 header{
@@ -158,4 +156,226 @@ display: flex;
   margin-left: 700px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+@font-face {
+  font-family: rubik;
+  src: url("/assets/fonts/Rubik-Medium.ttf")format("truetype");
+}
+.trend{
+  color: white;
+  width: 404px;
+  height: 58px;
+  margin-top: 130px;
+  margin-left: 147px;
+  font-weight: 700px;
+  font-size: larger;
+  font-family: rubik;
+}
+.all{
+  margin-left: 800px;
+  margin-top: 120px;
+  font-family: rubik;
+  width: 139px;
+  height: 57px;
+  background-color: #5141AA;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500px;
+
+}
+.imglist{
+  margin-top: 50px;
+}
+.first{
+  margin-left: 147px;
+  border-radius: 20px;
+  width: 251px;
+  height: 277px;
+
+}
+.therest{
+  margin-left: 110px;
+  border-radius: 20px;
+  width: 251px;
+  height: 277px;
+}
+.fire1{
+  margin-left: 195px;
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+}
+.followers{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: rubik;
+  color: white;
+  width: 136px;
+  height: 41px;
+  font-size: 22px;
+
+}
+.fire{
+  margin-left: 190px;
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+
+}
+.dummylorem{
+  color: white;
+  font-family: myFont;
+  width: 826px;
+  height: 132px;
+  text-align: center;
+  margin-left: 400px;
+  font-size: 35px;
+  margin-top: 120px;
+}
+.txtbox{
+  width: 545px;
+  height: 173px;
+  margin-left: 147px;
+  margin-top: 50px;
+  color: white;
+
+}
+.lorem{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.nextlorem{
+  font-size: 16px;
+  font-family: myFontlight;
+}
+.dot{
+  color:#DC700059;
+  width: 300px;
+  height: 7px;
+  font-size: 40px;
+  margin-top: 10px;
+  padding: 0;
+}
+.dots{
+  position:-ms-page;
+  margin-left: 1200px;
+  margin-top: 0;
+  padding: 0;
+}
+.spiderman{
+  width: 1350px;
+  height: 550px;
+  border-radius: 5px;
+  border-color: #000;
+  margin-left: 147px;
+  margin-top: 0;
+  position:absolute;
+  background-image: url(/assets/images/bda8f371503fa58f7e526fe7b0cd55c9.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position:0 40%;
+  
+ 
+}
+.txtbox2{
+  color: white;
+  margin-top: 700px;
+  text-align: center;
+  width: 497px;
+  height: 128px;
+  margin-left: 570px;
+  margin-bottom: 50px;
+}
+@font-face {
+  font-family: poppins;
+  src: url(/assets/fonts/Poppins-SemiBold.ttf);
+}
+.projects{
+  font-size: 30px;
+  font-family: poppins;
+  
+}
+.lorem3{
+  font-size: 14px;
+  font-family: myFontlight;
+  margin-top: 20px;
+}
+.imgs{
+  margin-left: 135px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.ph1{
+  border-radius: 20px;
+  width: 422px;
+  height: 223px;
+  margin-right: 40px;
+}
+.ph2{
+  border-radius: 20px;
+  width: 422px;
+  height: 223px;
+  margin-right: 40px;
+}
+.ph3{
+  border-radius: 20px;
+  width: 402px;
+  height: 223px;
+}
+.ph4{
+  border-radius: 20px;
+  width: 296px;
+  height: 223px;
+  margin-right: 40px;
+}
+.ph5{
+  border-radius: 20px;
+  width: 451px;
+  height: 223px;
+  margin-right: 40px;
+}
+.ph6{
+  border-radius: 20px;
+  width: 509px;
+  height: 223px;
+}
+.blackbox{
+  background-color: #1C140F;
+  display: flex;
+  width: 1350px;
+  height: 200px;
+  margin-left: 135px;
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+.email{
+  background-color: white;
+  height: 55px;
+  border-radius: 8px;
+  width: 386px;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+.write{
+  border: white;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 13px;
+}
+::placeholder{
+  color: #898989;
+}
+.btn{
+  background-color: #FA8305;
+  width: 105px;
+  height: 37px;
+  border-radius: 8px;
+  border: #FA8305;
+  color: white;
+  margin-left: 47px;
+  font-size: 13px;
 }
