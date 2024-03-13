@@ -225,6 +225,14 @@ display: flex;
   height: 25px;
 
 }
+.first:hover{
+  transition: opacity 0.3;
+  opacity: 0.7;
+}
+.therest:hover{
+  transition: opacity 0.3;
+  opacity: 0.7;
+}
 .dummylorem{
   color: white;
   font-family: myFont;
@@ -378,4 +386,119 @@ display: flex;
   color: white;
   margin-left: 47px;
   font-size: 13px;
+}
+footer{
+  background-color:#000;
+  margin-top: 200px;
+  height: 430px;
+  width: 1700px;
+}
+.firstlogo{
+  color:white;
+  width: 68px;
+  height: 37px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-family: poppins;
+  
+}
+.lorem4{
+  color:white;
+  margin-left: 100px;
+  width: 372px;
+  height: 58px;
+  font-size: 16px;
+  font-family: myFontlight;
+  margin-top: 25px;
+}
+.secondlogo{
+  color:white;
+  margin-left: 100px;
+  font-size: 16px;
+  font-family: myFontlight;
+  width: 196px;
+  height: 23px;
+  margin-top: 40px;
+}
+.us{
+  color: white;
+  width: 100px;
+  height: 26px;
+  font-size: 19px;
+  margin-bottom: 20px;
+  
+
+}
+.uslist{
+  color: white;
+  list-style-type: none;
+}
+.item{
+  margin-bottom: 13px;
+  font-size: 17px;
+  font-family: myFontlight;
+}
+.firstcircle{
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ margin-left: 200px;
+ margin-top: 260px;
+}
+.facebook{
+  margin-left: 218px;
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.circle2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: 250px;
+}
+.instagram{
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 268px;
+}
+.circle3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: 300px;
+}
+.twt{
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 318px;
+}
+.circle4{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: 350px;
+}
+.in{
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 368px;
+}
+.copy{
+  width: 350px;
+  height: 25px;
+  margin-top: 30px;
+  font-family: myFontlight;
+  color: white;
+  margin-left: 650px;
 }
