@@ -18,11 +18,11 @@
 }
 @font-face{
   font-family: myFont;
-  src: url("/assets/fonts/Poppins-Medium.ttf") format('truetype');
+  src: url("/css-Gaming-website/assets/fonts/Poppins-Medium.ttf") format('truetype');
 }
 @font-face{
   font-family: myFontlight;
-  src: url("/assets/fonts/Poppins-Light.ttf") format('truetype');
+  src: url("/css-Gaming-website/assets/fonts/Poppins-Light.ttf") format('truetype');
 }
 
 
@@ -159,7 +159,7 @@ display: flex;
 }
 @font-face {
   font-family: rubik;
-  src: url("/assets/fonts/Rubik-Medium.ttf")format("truetype");
+  src: url("/css-Gaming-website/assets/fonts/Rubik-Medium.ttf")format("truetype");
 }
 .trend{
   color: white;
@@ -281,7 +281,7 @@ display: flex;
   margin-left: 147px;
   margin-top: 0;
   position:absolute;
-  background-image: url(/assets/images/bda8f371503fa58f7e526fe7b0cd55c9.jpg);
+  background-image: url(/css-Gaming-website/assets/images/bda8f371503fa58f7e526fe7b0cd55c9.jpg);
   background-repeat: no-repeat;
   background-size: 1500px;
   background-position:0 40%;

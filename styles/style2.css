@@ -1,0 +1,424 @@
+@font-face{
+    font-family: myFont;
+    src: url("/css-Gaming-website/assets/fonts/Poppins-Medium.ttf") format('truetype');
+  }
+  @font-face{
+    font-family: myFontlight;
+    src: url("/css-Gaming-website/assets/fonts/Poppins-Light.ttf") format('truetype');
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: #3B2A9F;
+    font-family: myFont;
+  
+  }
+  header{
+  
+  position: absolute;
+  height: 100px;
+  left: 0.23px;
+  top: 0px;
+  width: 1650px;
+  display:flex;
+  text-align: center;
+  background-color: #3B2A9F;
+  
+  
+  }
+  
+  .logo{
+  color: white;
+  font-family: myFont;
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 81.93px;
+  height: 45px;
+  margin-top: 25px;
+  margin-left: 59.18px;
+  display: flex;
+  
+  }
+  
+  .list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    list-style-type: none;
+    margin-left: 700px;
+    margin-top: 35px;
+    font-family: myFontlight;
+    font-weight: normal;
+  
+  
+  }
+  .nav:hover{
+    text-decoration: underline  #FA8305 3px ;
+    
+  }
+  .light{
+    background-color: #FA8305;
+    color: white;
+    font-family: myFontlight;
+    margin-left: 100px;
+    width:150px;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    border-radius: 6px;
+  }
+  .prove{
+    color:white;
+    font-size: 20px;
+    font-family: myFontlight;
+    font-size: 12px;
+  
+  }
+  .work{
+    color: white;
+    margin-top: 30px;
+    font-weight: 700px;
+    font-size: 60px;
+    width: 450px;
+    font-size: 30px;
+  }
+  .dummy{
+    color: white;
+    font-family: myFontlight;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    width: 414px;
+    height: 95px;
+  }
+  .textbox{
+    margin-top: 203px;
+    margin-left: 147px;
+    width: 500px;
+    height: 409px;
+    
+  }
+  .detail{
+    color: white;
+    background-color: #FA8305;
+    text-decoration: none;
+    font-family: myFont;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding: 15px 27px;
+  
+  }
+  .ph{
+    width: 1200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 656px;
+    background-image: url(/css-Gaming-website/assets/images/6d5e0990a67102e0ba74574d569aa036.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 656px;
+    background-position: 45% 0;
+    border:none;
+   
+  }
+  .trend{
+    color: white;
+    width: 404px;
+    height: 58px;
+    margin-top: 130px;
+    margin-left: 147px;
+    font-weight: 700px;
+    font-size: 25px;
+    font-family: myFont;
+  }
+  .lorembox{
+    background-color: #1C140F;
+    width: 390px;
+    height: 348px;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: white;
+  }
+  .l1{
+    background-color: #B000DC1C;
+    width: 140px;
+    height: 39px;
+    margin-left: 30px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: myFontlight;
+    font-size: 16px;
+    padding-right: 15px;
+  }
+  .l2{
+    font-size: 20px;
+    width: 133px;
+    height: 38px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+  }
+  .l3{
+    width: 304px;
+    height: 108px;
+    font-family: myFontlight;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .box{
+    background-color: #1C140F;
+    width: 1700px;
+    height: 550px;
+    margin-top: 150px;
+  }
+  .img{
+    background-image: url("/css-Gaming-website/assets/images/7f371d6e72cd0e323780efd3d18eea57.jpg");
+    background-repeat: no-repeat;
+    background-size: 570px 490px;
+    position: absolute;
+    width: 450px;
+    height: 420px;
+    border-radius: 24px 24px 0px 0px;
+    position: 45% 0;
+    margin-top: 128px;
+    margin-left: 110px;
+  }
+  .lorembox2{
+    color: white;
+    width: 536px;
+    height: 370px;
+    margin-left: 650px;
+    padding-top: 140px;
+  }
+  @font-face {
+    font-family: poppins;
+    src: url("/css-Gaming-website/assets/fonts/Poppins-SemiBold.ttf");
+  }
+  .l4{
+    width: 105px;
+    height: 32px;
+    font-size: 16px;
+    font-family: myFontlight;
+  }
+  .l5{
+    width: 500px;
+    height: 150px;
+    line-height: 44.1px;
+    font-family: poppins;
+    font-size: 28px;
+    margin: 0px;
+  }
+  .l6{
+    font-size: 16px;
+    font-family: myFontlight;
+    margin: 0px;
+  }
+  .team{
+    width: 295px;
+    height: 253px;
+    background-color: #1C140F;
+    border-radius: 20px;
+    margin-left: 110px;
+  }
+  .person{
+    width: 123px;
+    height: 123px;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+  .name{
+    color: white;
+    font-size: 19px;
+    margin-left: 90px;
+  }
+  .coo{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: myFontlight;
+    color: #E8E8E8;
+    margin-left: 122px;
+    margin-top: 4px;
+  }
+
+
+
+  .blackbox{
+    background-color: #1C140F;
+    display: flex;
+    width: 1350px;
+    height: 200px;
+    margin-left: 135px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+  }
+  .email{
+    background-color: white;
+    height: 55px;
+    border-radius: 8px;
+    width: 386px;
+    margin-left: 300px;
+    margin-top: 80px;
+  }
+  .write{
+    border: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 13px;
+  }
+  ::placeholder{
+    color: #898989;
+  }
+  .btn{
+    background-color: #FA8305;
+    width: 105px;
+    height: 37px;
+    border-radius: 8px;
+    border: #FA8305;
+    color: white;
+    margin-left: 47px;
+    font-size: 13px;
+  }
+  footer{
+    background-color:#000;
+    margin-top: 200px;
+    height: 450px;
+    width: 1700px;
+  }
+  .firstlogo{
+    color:white;
+    width: 68px;
+    height: 37px;
+    margin-left: 100px;
+    font-size: 24px;
+    font-family: poppins;
+    
+  }
+  .lorem4{
+    color:white;
+    margin-left: 100px;
+    width: 372px;
+    height: 58px;
+    font-size: 16px;
+    font-family: myFontlight;
+    margin-top: 25px;
+  }
+  .secondlogo{
+    color:white;
+    margin-left: 100px;
+    font-size: 16px;
+    font-family: myFontlight;
+    width: 196px;
+    height: 23px;
+    margin-top: 40px;
+  }
+  .us{
+    color: white;
+    width: 100px;
+    height: 26px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    
+  
+  }
+  .uslist{
+    color: white;
+    list-style-type: none;
+  }
+  .item{
+    margin-bottom: 13px;
+    font-size: 17px;
+    font-family: myFontlight;
+  }
+  .firstcircle{
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   margin-left: 200px;
+   margin-top: 260px;
+  }
+  .facebook{
+    margin-left: 218px;
+    margin-top: 275px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+  }
+  .circle2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 260px;
+    margin-left: 250px;
+  }
+  .instagram{
+    margin-top: 275px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-left: 268px;
+  }
+  .circle3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 260px;
+    margin-left: 300px;
+  }
+  .twt{
+    margin-top: 275px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-left: 318px;
+  }
+  .circle4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 260px;
+    margin-left: 350px;
+  }
+  .in{
+    margin-top: 275px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-left: 368px;
+  }
+  .copy{
+    width: 350px;
+    height: 25px;
+    margin-top: 30px;
+    font-family: myFontlight;
+    color: white;
+    margin-left: 650px;
+  }
+  .txtbox{
+    width: 545px;
+    height: 173px;
+    margin-left: 147px;
+    margin-top: 50px;
+    color: white;
+  
+  }
+  .lorem{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .nextlorem{
+    font-size: 16px;
+    font-family: myFontlight;
+  }
