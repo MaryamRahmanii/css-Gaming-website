@@ -1,10 +1,10 @@
 @font-face{
     font-family: myFont;
-    src: url("/css-Gaming-website/assets/fonts/Poppins-Medium.ttf") format('truetype');
+    src: url("/assets/fonts/Poppins-Medium.ttf") format('truetype');
   }
   @font-face{
     font-family: myFontlight;
-    src: url("/css-Gaming-website/assets/fonts/Poppins-Light.ttf") format('truetype');
+    src: url("/assets/fonts/Poppins-Light.ttf") format('truetype');
   }
   * {
     padding: 0;
@@ -124,7 +124,7 @@
     margin-left: 200px;
     margin-top: 100px;
     height: 656px;
-    background-image: url(/css-Gaming-website/assets/images/6d5e0990a67102e0ba74574d569aa036.jpg);
+    background-image: url("/assets/images/6d5e0990a67102e0ba74574d569aa036.jpg");
     background-repeat: no-repeat;
     background-size: 1500px 656px;
     background-position: 45% 0;
@@ -185,7 +185,7 @@
     margin-top: 150px;
   }
   .img{
-    background-image: url("/css-Gaming-website/assets/images/7f371d6e72cd0e323780efd3d18eea57.jpg");
+    background-image: url("/assets/images/7f371d6e72cd0e323780efd3d18eea57.jpg");
     background-repeat: no-repeat;
     background-size: 570px 490px;
     position: absolute;
@@ -205,7 +205,7 @@
   }
   @font-face {
     font-family: poppins;
-    src: url("/css-Gaming-website/assets/fonts/Poppins-SemiBold.ttf");
+    src: url("/assets/fonts/Poppins-SemiBold.ttf");
   }
   .l4{
     width: 105px;
