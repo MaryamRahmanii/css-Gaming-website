@@ -12,10 +12,34 @@
   
     box-sizing: border-box;
   }
+  :root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --black-700: #000;
+    --banafsh: #3B2A9F;
+    --narenji: #FA8305;
+    --banafshkam:#5141AA;
+    --ghahveii:#DC700059;
+    --siah:#1C140F;
+    --khakstri:#898989;
+    --banafshpor:#B000DC1C;
+    --khakstrikam:#E8E8E8;
   
-  
+    
+  }
+  /* 3. and we use it like this */
+  .elementOne {
+    /* var(--"somekey-attr") */
+    background-color: var(--black-700);
+    background-color: var(--banafsh);
+    background-color: var(--banafshkam);
+    background-color: var(--ghahveii);
+    background-color: var(--narenji);
+    background-color: var(--siah);
+    background-color: var(--khakstri);
+    background-color: var(--khakstrikam);
+  }
   body{
-    background-color: #3B2A9F;
+    background-color: var(--banafsh);
     font-family: myFont;
   
   }
@@ -28,7 +52,7 @@
   width: 1650px;
   display:flex;
   text-align: center;
-  background-color: #3B2A9F;
+  background-color: var(--banafsh);
   
   
   }
@@ -63,11 +87,11 @@
   
   }
   .nav:hover{
-    text-decoration: underline  #FA8305 3px ;
+    text-decoration: underline  var(--narenji) 3px ;
     
   }
   .light{
-    background-color: #FA8305;
+    background-color: var(--narenji);
     color: white;
     font-family: myFontlight;
     margin-left: 100px;
@@ -111,7 +135,7 @@
   }
   .detail{
     color: white;
-    background-color: #FA8305;
+    background-color: var(--narenji);
     text-decoration: none;
     font-family: myFont;
     margin-top: 100px;
@@ -142,7 +166,7 @@
     font-family: myFont;
   }
   .lorembox{
-    background-color: #1C140F;
+    background-color: var(--siah);
     width: 390px;
     height: 348px;
     border-radius: 20px;
@@ -152,7 +176,7 @@
     color: white;
   }
   .l1{
-    background-color: #B000DC1C;
+    background-color:var(--banafshpor);
     width: 140px;
     height: 39px;
     margin-left: 30px;
@@ -179,7 +203,7 @@
     margin-left: 30px;
   }
   .box{
-    background-color: #1C140F;
+    background-color: var(--siah);
     width: 1700px;
     height: 550px;
     margin-top: 150px;
@@ -229,7 +253,7 @@
   .team{
     width: 295px;
     height: 253px;
-    background-color: #1C140F;
+    background-color: var(--siah);
     border-radius: 20px;
     margin-left: 110px;
   }
@@ -248,7 +272,7 @@
     font-size: 16px;
     font-weight: 300px;
     font-family: myFontlight;
-    color: #E8E8E8;
+    color: var(--khakstrikam)
     margin-left: 122px;
     margin-top: 4px;
   }
@@ -256,7 +280,7 @@
 
 
   .blackbox{
-    background-color: #1C140F;
+    background-color: var(--siah);
     display: flex;
     width: 1350px;
     height: 200px;
@@ -279,14 +303,14 @@
     font-size: 13px;
   }
   ::placeholder{
-    color: #898989;
+    color: var(--khakstri);
   }
   .btn{
-    background-color: #FA8305;
+    background-color: var(--narenji);
     width: 105px;
     height: 37px;
     border-radius: 8px;
-    border: #FA8305;
+    border: var(--narenji);
     color: white;
     margin-left: 47px;
     font-size: 13px;

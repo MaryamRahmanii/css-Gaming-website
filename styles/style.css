@@ -10,11 +10,25 @@
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
   --black-700: #000;
+  --banafsh: #3B2A9F;
+  --narenji: #FA8305;
+  --banafshkam:#5141AA;
+  --ghahveii:#DC700059;
+  --siah:#1C140F;
+  --khakstri:#898989;
+
+  
 }
 /* 3. and we use it like this */
 .elementOne {
   /* var(--"somekey-attr") */
   background-color: var(--black-700);
+  background-color: var(--banafsh);
+  background-color: var(--banafshkam);
+  background-color: var(--ghahveii);
+  background-color: var(--narenji);
+  background-color: var(--siah);
+  background-color: var(--khakstri);
 }
 @font-face{
   font-family: myFont;
@@ -27,7 +41,7 @@
 
 
 body{
-  background-color: #3B2A9F;
+  background-color:var(--banafsh);
   font-family: myFont;
 
 }
@@ -40,7 +54,7 @@ top: 0px;
 width: 1700px;
 display:flex;
 text-align: center;
-background-color: #3B2A9F;
+background-color:var(--banafsh);
 
 
 }
@@ -75,11 +89,11 @@ display: flex;
 
 }
 .nav:hover{
-  text-decoration: underline  #FA8305 3px ;
+  text-decoration: underline  var(--narenji) 3px ;
   
 }
 .light{
-  background-color: #FA8305;
+  background-color:var(--narenji);
   color: white;
   font-family: myFontlight;
   margin-left: 100px;
@@ -92,7 +106,7 @@ display: flex;
 
 }
 .prove{
-  color:#FA8305;
+  color:var(--narenji);
   font-size: 20px;
 
 }
@@ -117,7 +131,7 @@ display: flex;
 }
 .detail{
   color: white;
-  background-color: #FA8305;
+  background-color: var(--narenji);
   text-decoration: none;
   font-family: myFontlight;
   margin-top: 100px;
@@ -177,7 +191,7 @@ display: flex;
   font-family: rubik;
   width: 139px;
   height: 57px;
-  background-color: #5141AA;
+  background-color: var(--banafshkam);
   border-radius: 10px;
   color: white;
   text-align: center;
@@ -260,7 +274,7 @@ display: flex;
   font-family: myFontlight;
 }
 .dot{
-  color:#DC700059;
+  color:var(--ghahveii);
   width: 300px;
   height: 7px;
   font-size: 40px;
@@ -352,7 +366,7 @@ display: flex;
   height: 223px;
 }
 .blackbox{
-  background-color: #1C140F;
+  background-color: var(--siah);
   display: flex;
   width: 1350px;
   height: 200px;
@@ -375,14 +389,14 @@ display: flex;
   font-size: 13px;
 }
 ::placeholder{
-  color: #898989;
+  color: var(--khakstri);
 }
 .btn{
-  background-color: #FA8305;
+  background-color: var(--narenji);
   width: 105px;
   height: 37px;
   border-radius: 8px;
-  border: #FA8305;
+  border: var(--narenji);
   color: white;
   margin-left: 47px;
   font-size: 13px;
